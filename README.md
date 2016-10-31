@@ -1,1 +1,1 @@
-# [john-baskerville](https://github.com/loisgordon/john-baskerville/blob/master/john-baskerville.html)
+# [john-baskerville](https://loisgordon.github.com/john-baskerville/john-baskerville.html)
