@@ -7,4 +7,4 @@ John Baskerville
 
 ### Week 07 - 7th November 2016
 
-[Version 02](https://loisgordon.github.io/john-baskerville2/john-baskerville.html)
+[Version 02](https://loisgordon.github.io/john-baskerville2/john-baskerville2.html)
