@@ -12,5 +12,5 @@ John Baskerville
 
 ### Week 08 - 14th November 2016
 
-- [Version 04](https://loisgordon.github.io/john-baskerville/john-baskerville4.html) - Reaplacing list by adding a table
+- [Version 04](https://loisgordon.github.io/john-baskerville/john-baskerville4.html) - Replacing list by adding a table
 - [Version 05](https://loisgordon.github.io/john-baskerville/john-baskerville5.html) - Adding images
