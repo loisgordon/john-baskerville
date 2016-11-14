@@ -3,14 +3,14 @@ John Baskerville
 
 ### Week 06 - 31st October 2016
 
-[Version 01](https://loisgordon.github.io/john-baskerville/john-baskerville.html) - Marked up plain text file as an html5 page
+- [Version 01](https://loisgordon.github.io/john-baskerville/john-baskerville.html) - Marked up plain text file as an html5 page
 
 ### Week 07 - 7th November 2016
 
-[Version 02](https://loisgordon.github.io/john-baskerville/john-baskerville2.html) 
-& [Version 03](https://loisgordon.github.io/john-baskerville/john-baskerville3.html) - Adding lists and links
+- [Version 02](https://loisgordon.github.io/john-baskerville/john-baskerville2.html) 
+- [Version 03](https://loisgordon.github.io/john-baskerville/john-baskerville3.html) - Adding lists and links
 
 ### Week 08 - 14th November 2016
 
-[Version 04](https://loisgordon.github.io/john-baskerville/john-baskerville4.html) - Reaplacing list by adding a table
-[Version 05](https://loisgordon.github.io/john-baskerville/john-baskerville5.html) - Adding images
+- [Version 04](https://loisgordon.github.io/john-baskerville/john-baskerville4.html) - Reaplacing list by adding a table
+- [Version 05](https://loisgordon.github.io/john-baskerville/john-baskerville5.html) - Adding images
