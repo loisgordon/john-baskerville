@@ -10,3 +10,6 @@ John Baskerville
 [Version 02](https://loisgordon.github.io/john-baskerville/john-baskerville2.html) 
 & [Version 03](https://loisgordon.github.io/john-baskerville/john-baskerville3.html) - Adding lists and links
 
+### Week 08 - 14th November 2016
+
+[Version 04](https://loisgordon.github.io/john-baskerville/john-baskerville4.html) - Reaplacing list by adding a table
