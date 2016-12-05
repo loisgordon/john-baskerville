@@ -112,7 +112,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 25px;
+    margin: 20px;
 }
 
 nav a:hover {
@@ -180,9 +180,39 @@ table, td, th {
             border: 1px solid #ffffff;
 }
 
+/*----------------------- Tablet -------------- */
 
+@media (max-width:50em) {
+    body { 
+            width: 85%;
+            
+        
+    }
+    article {
+        width: 95%;
+        padding: 0.5em;
+        
+    }
+}
 
+/*----------------------- Smartphone -------------- */
 
+@media (max-width:35em) {
+                        body {
+                        margin: auto;
+                        width: 100%;
+                        font-size: 110%;
+    }
+}
+
+table {font-size: 90%}
+
+article {
+        width: 90%
+}
+
+h1 {font-size: 2.9em;
+    line-height: 1.3em}
 
 
 
