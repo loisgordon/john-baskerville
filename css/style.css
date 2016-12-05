@@ -205,7 +205,9 @@ table, td, th {
     }
 }
 
-table {font-size: 90%}
+table {font-size: 90%
+        padding: .5em;
+}
 
 article {
         width: 90%
