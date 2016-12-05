@@ -214,6 +214,7 @@ blockquote {
  /*--------------- smartphone table -------------*/
 table {
         font-size: 90%;
+        padding: 0 0 0 2em;
 }
  /*--------------- smartphone article -------------*/
 article {
@@ -258,6 +259,12 @@ nav ul li {
     font-size: .5em;
 
 }
-
+ /*--------------- smartphone imgs -------------*/
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 18em;
+    
 }
 
