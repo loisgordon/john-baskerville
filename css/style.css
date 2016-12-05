@@ -113,6 +113,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 20px;
+    font-size: 1em;
 }
 
 nav a:hover {
@@ -193,36 +194,49 @@ table, td, th {
         padding: 0.5em;
         
     }
+    
+blockquote {
+            font-size: 95%;
+                
+    }
 }
 
 /*----------------------- Smartphone -------------- */
 
 @media (max-width:35em) {
                         body {
-                        margin: auto;
+                        margin: 0.5em;
                         width: 100%;
                         font-size: 110%;
+                        margin: 1em;
     }
-}
 
-table {font-size: 90%;
+
+table {
+        font-size: 90%;
 }
 
 article {
         width: 85%
 }
 
-h1 {font-size: 2.9em;
-    line-height: 1.3em
+h1 {
+        font-size: 2.9em;
+        line-height: 1em
 }
 
-nav ul li {
-    display: inline;
-    margin: 20px;
+footer {
+        color: darkgrey;
+        line-height: 1.3em;
+        font-size: .75em;
+        padding: 1em;
 }
 
+blockquote {
+            font-size: 90%;
+                
+    }
 
 
-
-
+}
 
