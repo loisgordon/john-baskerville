@@ -205,38 +205,59 @@ blockquote {
 
 @media (max-width:35em) {
                         body {
-                        margin: 0.5em;
+                        margin: 1em;
                         width: 100%;
                         font-size: 110%;
                         margin: 1em;
     }
 
-
+ /*--------------- smartphone table -------------*/
 table {
         font-size: 90%;
 }
-
+ /*--------------- smartphone article -------------*/
 article {
-        width: 85%
+        width: 90%
 }
-
+ /*--------------- smartphone header -------------*/
 h1 {
-        font-size: 2.9em;
-        line-height: 1em
-}
-
+        font-size: 2em;
+        line-height: .5em;
+    }
+    h2 { font-size: 2em;
+    }
+ /*--------------- smartphone footer -------------*/
 footer {
         color: darkgrey;
-        line-height: 1.3em;
+        line-height: 1.5em;
         font-size: .75em;
         padding: 1em;
 }
-
+ /*--------------- smartphone blockquote --------*/
 blockquote {
             font-size: 90%;
-                
+    
+   /*--------------- smartphone nav -------------*/             
     }
+nav {
+    padding: .75em 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin-bottom: 2em;
+}
 
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 9px;
+    font-size: .5em;
+
+}
 
 }
 
