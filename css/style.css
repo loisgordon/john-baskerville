@@ -196,7 +196,7 @@ table, td, th {
     }
     
 blockquote {
-            font-size: 95%;
+            font-size: 85%;
                 
     }
 }
@@ -205,25 +205,25 @@ blockquote {
 
 @media (max-width:35em) {
                         body {
-                        margin: 1em;
-                        width: 100%;
-                        font-size: 110%;
-                        margin: 1em;
+                        margin: 3em;
+                        width: 90%;
+                        font-size: 100%;
+                        margin: 1em 0em 1em 2em;
     }
 
  /*--------------- smartphone table -------------*/
 table {
-        font-size: 90%;
-        padding: 0 0 0 2em;
+        font-size: 80%;
+        margin: 1em 1em 2em 0em
 }
  /*--------------- smartphone article -------------*/
 article {
-        width: 90%
+        width: 100%;
 }
  /*--------------- smartphone header -------------*/
 h1 {
         font-size: 2em;
-        line-height: .5em;
+        line-height: .75em;
     }
     h2 { font-size: 2em;
     }
