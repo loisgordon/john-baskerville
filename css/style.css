@@ -152,7 +152,7 @@ table {
         margin: auto;
         width: 100%;
         display: table;
-        border-collapse:collapse;
+        border-collapse: collapse;
         border-spacing: 2px;       
 } 
 
@@ -214,12 +214,19 @@ blockquote {
  /*--------------- smartphone table -------------*/
 table {
         font-size: 80%;
-        margin: 1em 1em 2em 0em
+        margin: 1em 1em 2em 0em;
+        width: auto;
 }
  /*--------------- smartphone article -------------*/
 article {
         width: 100%;
 }
+    
+    section {
+            width: 100%;
+            padding: 0em;
+            
+    }
  /*--------------- smartphone header -------------*/
 h1 {
         font-size: 2em;
@@ -264,7 +271,7 @@ img {
     display: block;
     margin: 1em auto;
     padding: 1em;
-    max-width: 10em;
+    max-width: 12.5em;
     
 }
 
