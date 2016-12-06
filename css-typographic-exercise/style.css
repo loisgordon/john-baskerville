@@ -71,6 +71,7 @@
         color: dimgrey;
         hanging-punctuation: first;
         text-indent: -0.45em;
+        text-transform: italic;
     }
     
     .anchor {
