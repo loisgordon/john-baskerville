@@ -21,5 +21,6 @@ John Baskerville
 ### Week 11 - 5th December 2016
 - [Version 07](https://loisgordon.github.io/john-baskerville/john-baskerville7.html) - Amending table, adding google font, viewport size 
 
+- [Typographic Exercise](https://loisgordon.github.io/john-baskerville/typographic-exercise.html) 
                                                                                     
-                                                                                     
+                                                                                    
