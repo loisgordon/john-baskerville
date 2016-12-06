@@ -1,4 +1,4 @@
-/*------------------ css reset -------------------------*/
+    /*------------------ css reset -------------------------*/
 
 * {
     padding: 0;
@@ -119,7 +119,10 @@ nav ul li {
 nav a:hover {
     border-bottom: none;
 }
+
+
 /*----------------------- footer -------------- */
+
 footer {
     color: darkgrey;
     line-height: 1.3em;
@@ -138,140 +141,136 @@ footer ul li {
     line-height: 3em;
     font-size: 1.5m;
 }
+
+
 /*----------------------- images -------------- */
+
 img {
     display: block;
     margin: 1em auto;
     padding: 0 1em 0 1em;
     max-width: 100%;
-    
 }
+
+
 /*----------------------- table -------------- */
 
 table {
-        margin: auto;
-        width: 100%;
-        display: table;
-        border-collapse: collapse;
-        border-spacing: 2px;       
-} 
+    margin: auto;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
 
 caption {
-        margin-bottom: 1em;
-        text-transform: none;
-        color: crimson;
-        text-align: center;
-        font-size: 1.5em;
+    margin-bottom: 1em;
+    text-transform: none;
+    color: crimson;
+    text-align: center;
+    font-size: 1.5em;
 }
 
-table.head, th {
-                color: whitesmoke;
-                text-transform: uppercase;
-                font-weight: normal;
-                text-align: left;
-                background: crimson;
+table.head,
+th {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: crimson;
 }
 
-th, td {
-        padding: .6em;
+th,
+td {
+    padding: .6em;
 }
 
-table, td, th {
-            background: rgba (0,0,0,.1);
-            border: 1px solid #ffffff;
+table,
+td,
+th {
+    background: rgba (0, 0, 0, .1);
+    border: 1px solid #ffffff;
 }
+
 
 /*----------------------- Tablet -------------- */
 
 @media (max-width:50em) {
-    body { 
-            width: 85%;
-            
-        
+    body {
+        width: 85%;
     }
     article {
         width: 95%;
         padding: 0.5em;
-        
     }
-    
-blockquote {
-            font-size: 85%;
-                
+    blockquote {
+        font-size: 85%;
     }
 }
+
 
 /*----------------------- Smartphone -------------- */
 
 @media (max-width:35em) {
-                        body {
-                        margin: 3em;
-                        width: 90%;
-                        font-size: 100%;
-                        margin: 1em 0em 1em 2em;
+    body {
+        margin: 3em;
+        width: 90%;
+        font-size: 100%;
+        margin: 1em 0em 1em 2em;
     }
-
- /*--------------- smartphone table -------------*/
-table {
+    /*--------------- smartphone table -------------*/
+    table {
         font-size: 80%;
         margin: 1em 1em 2em 0em;
         width: auto;
-}
- /*--------------- smartphone article -------------*/
-article {
-        width: 100%;
-}
-    
-    section {
-            width: 100%;
-            padding: 0em;
-            
     }
- /*--------------- smartphone header -------------*/
-h1 {
+    /*--------------- smartphone article -------------*/
+    article {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    /*--------------- smartphone header -------------*/
+    h1 {
         font-size: 2em;
         line-height: .75em;
     }
-    h2 { font-size: 2em;
+    h2 {
+        font-size: 2em;
     }
- /*--------------- smartphone footer -------------*/
-footer {
+    /*--------------- smartphone footer -------------*/
+    footer {
         color: darkgrey;
         line-height: 1.5em;
         font-size: .75em;
         padding: 1em;
-}
- /*--------------- smartphone blockquote --------*/
-blockquote {
-            font-size: 90%;
-    
-   /*--------------- smartphone nav -------------*/             
     }
-nav {
-    padding: .75em 0;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    margin-bottom: 2em;
-}
-
-nav ul {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1.25px;
-}
-
-nav ul li {
-    display: inline;
-    margin: 9px;
-    font-size: .5em;
-
-}
- /*--------------- smartphone imgs -------------*/
-img {
-    display: block;
-    margin: 1em auto;
-    padding: 1em;
-    max-width: 12.5em;
-    
-}
-
+    /*--------------- smartphone blockquote --------*/
+    blockquote {
+        font-size: 85%;
+    }
+    /*--------------- smartphone nav -------------*/
+    nav {
+        padding: .75em 0;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        margin-bottom: 2em;
+    }
+    nav ul {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.25px;
+    }
+    nav ul li {
+        display: inline;
+        margin: 9px;
+        font-size: .5em;
+    }
+    /*--------------- smartphone imgs -------------*/
+    img {
+        display: block;
+        margin: 1em auto;
+        padding: 1em;
+        max-width: 12.5em;
+    }
