@@ -14,8 +14,30 @@ body {
     margin: auto;
     background-color: #f0f0f0;
     line-height: 1.5em;
+   
 }
+/*--------------------- background ----------------
 
+- make one in photoshaaap
+- width - 1600, 1000
+- png, transparent
+- save in images
+-   put this in the body
+                            {background: #000 url(link.png) 
+this will repeat it across your page - 
+                            repeat-x;
+then state where you want to position it within the same thing
+                        e.g. no-repeat right
+another way to do it
+
+background-position: 50% 50%
+
+- you can have multiple images
+- arrange the positioning directly after the link
+
+                            
+- ** note
+ css3factory.com will give you a gradient generator.
 
 /*------------------- typography --------------------*/
 
@@ -143,8 +165,7 @@ blockquote p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.version3 h1,
-h2 {
+.version3 h1 {
     font-family: 'Arvo', serif;
 }
 
@@ -169,10 +190,52 @@ h2 {
     text-transform: italic;
 }
 
-/*--- notes --
+
+/*-------------------- float ------------------ 
+
+.version1 { 
+            width: 30%;
+            max-width: }
+
+*/
+/*--- notes -----------------------------------------
 
 img { float: left;
     position: relative;
     margin: .5em 0 0 }
+img {display: none;} - this will hide things for example when in mobile view if you want to hide all the images.
 
 this allows you to put the image within the text rather than stand alone. this will show the image with the text around it.
+
+-------------------------sites that are useful----------------------
+
+- code pen
+- w3c school
+
+- check out cssreference.io 
+- to arrange images/ make a gallery - put them in a list
+- for example 
+
+.foundries img, ul, li { list-style: none;
+}
+. foundries img { display: block;
+                  width: 32%
+                  border: 1px solid #333;
+                  float: left;
+                  margin: 1em;
+}
+
+CSS colums
+
+- using floats for each version
+
+hover for wee icons with social links etc
+
+- for a drop shadow
+ text-shadow : 2px 2px 2px #f00;
+- you can put multiple shadows
+- you can use a box shadow
+- box-shadow:2px 2px 2px #f00;
+---------- questions -----------
+
+- how to display images large when clicked on (like a slideshow)
