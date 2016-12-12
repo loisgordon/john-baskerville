@@ -14,9 +14,11 @@
         margin: auto;
         background-color: #f0f0f0;
         line-height: 1.5em;
+ 
+
     }
 
-    /*------------------- typography ------------------------*/
+    /*------------------- typography --------------------*/
     
     h1,
     h2,
@@ -43,6 +45,7 @@
         margin-bottom: 1em;
         margin-top: 1em;
     }
+
     h3 {
         font-size: 1em;
         margin-bottom: -3em;
@@ -63,7 +66,7 @@
     
     blockquote {
  
-        font-size: 1.1em;
+        font-size: 1.5em;
         line-height: .5em;
         margin: .5em .5em 0 0;
         font-style: italic;
@@ -83,10 +86,76 @@
         text-transform: italic;
     }
     
+/*--------------------- dropcap--------------------*/
+
     .firstcharacter {
         font-size: 4.5em;
-        line-height: .75em;
+        line-height: .5em;
         padding-left: 0em;
-        margin: auto;
+        margin: right;
+        float: left;
     }
+/*--------------------- horizontal rule ------------*/
+       hr {        
+    border: 1px red solid;
+    
 }
+/*--------------------- version 2 ----------------*/
+
+.version2  { 
+            font-size: 7;
+            font-family:'Open Sans', sans-serif;
+            
+}
+.version2 blockquote {
+ 
+        font-size: 1.5em;
+        line-height: .5em;
+        margin: .5em .5em 0 0;
+        font-style: italic;
+    }
+    
+    cite {
+        font-size: .7em;
+        display: block;
+        margin-top: -1.5em;
+        margin-bottom: 3em;
+    }
+    
+    blockquote p {
+        color: dimgrey;
+        hanging-punctuation: first;
+        text-indent: -0.45em;
+        text-transform: italic;
+        } 
+ 
+/*--------------------- version 3 ----------------*/
+.version3
+{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Arvo', serif;
+}
+.version3 blockquote {
+ 
+        font-size: 1.5em;
+        line-height: .5em;
+        margin: .5em .5em 0 0;
+        font-style: italic;
+    }
+    
+.version3 cite {
+        font-size: .7em;
+        display: block;
+        margin-top: -1.5em;
+        margin-bottom: 3em;
+    }
+    
+.version3 blockquote p {
+        color: dimgrey;
+        hanging-punctuation: first;
+        text-indent: -0.45em;
+        text-transform: italic;
+        }
+
+       
+       
