@@ -1,161 +1,170 @@
 /*------------------ css reset -------------------------*/
-    
-    * {
-        padding: 0;
-        margin: 0;
-        font-size: 107%;
-        line-height: 1em;
-    }
-    
-    body {
-        width: 75%;
-        max-width: 800px;
-        font-family: 'Libre Baskerville', serif;
-        margin: auto;
-        background-color: #f0f0f0;
-        line-height: 1.5em;
- 
 
-    }
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 107%;
+    line-height: 1em;
+}
 
-    /*------------------- typography --------------------*/
-    
-    h1,
-    h2,
-    h3 {
-        font-weight: normal;
-        color: black;
-        text-align: left;
-    }
-    
-    p,
-    li {
-        margin-bottom: 2em;
-        line-height: 1.5em;
-    }
-    
-    h1 {
-        font-size: 4em;
-        margin-top: 1em;
-        margin-bottom: .1em;
-    }
-    
-    h2 {
-        font-size: 2.25em;
-        margin-bottom: 1em;
-        margin-top: 1em;
-    }
+body {
+    width: 75%;
+    max-width: 800px;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+    background-color: #f0f0f0;
+    line-height: 1.5em;
+}
 
-    h3 {
-        font-size: 1em;
-        margin-bottom: -3em;
-        margin-top: 1.5em;
-    
-    }
-    
-    header h2 {
-        font-style: italic;
-        font-size: 1.8em;
-        color: black;
-    }
-    
-    .intro {
-        font-size: 1.125em;
-        line-height: 1.5em;
-    }
-    
-    blockquote {
- 
-        font-size: 1.5em;
-        line-height: .5em;
-        margin: .5em .5em 0 0;
-        font-style: italic;
-    }
-    
-    cite {
-        font-size: .7em;
-        display: block;
-        margin-top: -1.5em;
-        margin-bottom: 3em;
-    }
-    
-    blockquote p {
-        color: dimgrey;
-        hanging-punctuation: first;
-        text-indent: -0.45em;
-        text-transform: italic;
-    }
-    
+
+/*------------------- typography --------------------*/
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    color: black;
+    text-align: left;
+}
+
+p,
+li {
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 1em;
+    margin-bottom: .1em;
+}
+
+h2 {
+    font-size: 2.25em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    margin-bottom: -3em;
+    margin-top: 1.5em;
+}
+
+header h2 {
+    font-style: italic;
+    font-size: 1.8em;
+    color: black;
+}
+
+.intro {
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+blockquote {
+    font-size: 1.5em;
+    line-height: .5em;
+    margin: .5em .5em 0 0;
+    font-style: italic;
+}
+
+cite {
+    font-size: .7em;
+    display: block;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+}
+
+blockquote p {
+    color: dimgrey;
+    hanging-punctuation: first;
+    text-indent: -0.45em;
+    text-transform: italic;
+}
+
+
 /*--------------------- dropcap--------------------*/
 
-    .firstcharacter {
-        font-size: 4.5em;
-        line-height: .5em;
-        padding-left: 0em;
-        margin: right;
-        float: left;
-    }
-/*--------------------- horizontal rule ------------*/
-       hr {        
-    border: 1px red solid;
-    
+.firstcharacter {
+    font-size: 4.5em;
+    line-height: .5em;
+    padding-left: 0em;
+    margin: right;
+    float: left;
 }
+
+
+/*--------------------- horizontal rule ------------*/
+
+hr {
+    border: 1px red solid;
+}
+
+
 /*--------------------- version 2 ----------------*/
 
-.version2  { 
-            font-size: 7;
-            font-family:'Open Sans', sans-serif;
-            
+.version2 {
+    font-size: 7;
+    font-family: 'Open Sans', sans-serif;
+}
+.version2 .indent {text-indent: 1em;
+           
 }
 .version2 blockquote {
- 
-        font-size: 1.5em;
-        line-height: .5em;
-        margin: .5em .5em 0 0;
-        font-style: italic;
-    }
-    
-    cite {
-        font-size: .7em;
-        display: block;
-        margin-top: -1.5em;
-        margin-bottom: 3em;
-    }
-    
-    blockquote p {
-        color: dimgrey;
-        hanging-punctuation: first;
-        text-indent: -0.45em;
-        text-transform: italic;
-        } 
- 
-/*--------------------- version 3 ----------------*/
-.version3
-{
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Arvo', serif;
+    font-size: 1.5em;
+    line-height: .5em;
+    margin: .5em .5em 0 0;
+    font-style: italic;
 }
-.version3 blockquote {
- 
-        font-size: 1.5em;
-        line-height: .5em;
-        margin: .5em .5em 0 0;
-        font-style: italic;
-    }
-    
-.version3 cite {
-        font-size: .7em;
-        display: block;
-        margin-top: -1.5em;
-        margin-bottom: 3em;
-    }
-    
-.version3 blockquote p {
-        color: dimgrey;
-        hanging-punctuation: first;
-        text-indent: -0.45em;
-        text-transform: italic;
-        }
 
-       
-       
+cite {
+    font-size: .7em;
+    display: block;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+}
+
+blockquote p {
+    color: dimgrey;
+    hanging-punctuation: first;
+    text-indent: -0.45em;
+    text-transform: italic;
+}
+
+.version2 p+p+p {
+    text-indent: 1em;
+}
+
+
+/*--------------------- version 3 ----------------*/
+
+.version3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.version3 h1,
+h2 {
+    font-family: 'Arvo', serif;
+}
+
+.version3 blockquote {
+    font-size: 1.5em;
+    line-height: .5em;
+    margin: .5em .5em 0 0;
+    font-style: italic;
+}
+
+.version3 cite {
+    font-size: .7em;
+    display: block;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+}
+
+.version3 blockquote p {
+    color: dimgrey;
+    hanging-punctuation: first;
+    text-indent: -0.45em;
+    text-transform: italic;
+}
